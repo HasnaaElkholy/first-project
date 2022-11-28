@@ -13,8 +13,7 @@ jobs:
     
 
     steps:
-      - name: 'Testing github action'
-        run: pwd
+      - name: 'Printing forlder contents'
+        run: ls
 
-      - name: 'Testing printing'
-        run: echo Hasnaa
+      
